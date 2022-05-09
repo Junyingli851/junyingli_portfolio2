@@ -1,0 +1,254 @@
+body{
+  background-color:#2A2A2A;
+  color: #D0D0D0;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+li,a,button{
+  font-family:sans-serif;
+  font-style:oblique;
+  font-weight: 500;
+  font-size: 16px;
+  color: #17202A;
+  text-decoration: none;
+}
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo{
+  cursor: pointer;
+  width: 120px;
+
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav_links li a {
+  transition:all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #FFC300;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(255, 195, 0,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition:all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgba(255, 195, 0,0.7);
+}
+
+.headlink{
+  background-color: #17202A;
+  font-family:Righteous;
+  text-decoration: none;
+  text-align: center;
+
+  margin: 100px;
+  color:#FFA500
+}
+
+#indexphoto{
+  width: 1200px;
+  margin-top: : 30px;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+-------------------------------------
+.artwork{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width:1200px;
+ margin: 20px;
+}
+
+.artwork .box1.box2.box3.box4{
+  width: 1000px;
+  margin:20px 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transition: filter 0.5s;
+  animation: 0.3s;
+  filter:grayscale(3);
+
+}
+.artwork .box1:hover{
+  filter:grayscale(0);
+  border: 3px;
+  padding: 5px;
+  background-color:#F0E68C;
+  background-position: 10px;
+  /*background-image: url('img/pet2.jpg');*/
+   }
+
+.artwork .box2:hover{
+     filter:grayscale(0);
+     border: 3px;
+     padding: 5px;
+     background-color:#FF4500;
+     background-position: 10px;
+      }
+
+
+.artwork .box3:hover{
+        filter:grayscale(0);
+        border: 3px;
+        padding: 5px;
+        background-color:#32CD32;
+        background-position: 10px;
+
+         }
+
+.artwork .box4:hover{
+    filter:grayscale(0);
+    border: 3px;
+    padding: 5px;
+     background-color:#9370DB;
+    background-position: 10px;
+ }
+
+
+h1{
+  font-family:"Paytone One";
+  font-size: 70px;
+  flex-wrap: nowrap;
+  width: auto;
+  background-image:
+  margin-top: 50px;
+  margin:50px 110px;
+
+}
+
+
+.project{
+  width: 1000px;
+  margin:20px 100px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.project::before {
+  content: :'':
+  position:absolute;
+  border:10px;
+  border-color: #FFC300;
+  transition:all 0.3s ease 0s;
+}
+
+
+.container{
+  width: 900px;
+  height: 900px;
+  margin: auto;
+}
+
+
+.petproject {
+
+  width: 1000px;
+  padding: 5px;
+  margin-top: 5px
+ }
+
+ #jyp{
+   width:400px;
+   margin-left: 30px
+
+
+ }
+--------------------------
+h2{
+margin-left: 90px;
+}
+
+#link1{
+  font-family: Inder;
+  padding-left: 30px;
+  margin-left: 40px;
+  text-decoration: none;
+    color:	#FFA500
+
+}
+h3{
+  font-style: Inria Serif;
+  font-size: 110px;
+
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.littlehead{
+  font-style:Inria Serif;
+  color:#EEE8AA;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-left: 80px;
+  margin-top: -10px;
+}
+.aboutpage{
+  display: flex;
+  flex-basis: auto;
+  flex-wrap: nowrap;
+  justify-content:center;
+  margin: 100px;
+}
+
+.infor{
+  font-style:Inria Serif;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+  margin-left: 80px;
+  margin-top: -10px;
+  margin-right: 170px;
+}
+p{
+  margin-left: 80px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+-----------------------------
+#resume{
+  margin: 100px;
+  padding: 30px;
+}
+
+.imgresume{
+  width: 680px;
+margin-left: 400px;
+}
+
+.video{
+  display: flex;
+}
